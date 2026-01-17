@@ -1,8 +1,8 @@
-# Contributing to **DolfinaBot**
+# Contributing to **dolphina_bot**
 
 ### Heads‑up ⚠️
 
-DolfinaBot is **just a fork**.
+`dolphina_bot` is **just a fork**.
 
 The real open‑source project lives next door at 
 [`derogab/summarygram`](https://github.com/derogab/summarygram).  

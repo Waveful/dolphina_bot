@@ -1,11 +1,11 @@
 <p align="center">
   <img src="./.github/assets/logo.png" width="140px" style="border-radius: 15%;">
 </p>
-<h1 align="center">DolfinaBot</h1>
+<h1 align="center">dolphina_bot</h1>
 <p align="center">A Dockerized Telegram bot that summarize last messages in a group<br>Fork of <a href="https://github.com/derogab/summarygram">derogab/summarygram</a></p>
 <p align="center">
-  <a href="https://github.com/Waveful/DolfinaBot/actions/workflows/docker-publish.yml">
-    <img src="https://github.com/Waveful/DolfinaBot/actions/workflows/docker-publish.yml/badge.svg">
+  <a href="https://github.com/Waveful/dolphina_bot/actions/workflows/docker-publish.yml">
+    <img src="https://github.com/Waveful/dolphina_bot/actions/workflows/docker-publish.yml/badge.svg">
   </a>
 </p>
 
@@ -90,11 +90,11 @@ docker compose -f docker/docker-compose.yml down
 - The bot will analyze all available messages in the chat and provide a concise summary. The message history is automatically cleared after 8 hours of inactivity.
 
 ### Credits
-_DolfinaBot_ is made with ♥ by [derogab](https://github.com/derogab) and it's released under the [MIT license](./LICENSE).
+_dolphina\_bot_ is made with ♥ by [derogab](https://github.com/derogab) and it's released under the [MIT license](./LICENSE).
 
 ### Contributors
 
-<a href="https://github.com/Waveful/DolfinaBot/graphs/contributors">
+<a href="https://github.com/Waveful/dolphina_bot/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=derogab/summarygram" />
 </a>
 

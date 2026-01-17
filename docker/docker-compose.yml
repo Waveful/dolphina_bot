@@ -32,7 +32,7 @@ services:
     build:
       context: ..
       dockerfile: docker/Dockerfile
-    image: ghcr.io/waveful/dolfinabot:master
+    image: ghcr.io/waveful/dolphinabot:master
     container_name: summarygram-app
     restart: unless-stopped
     volumes:
