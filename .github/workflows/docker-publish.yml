@@ -18,7 +18,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
   # github.repository as <account>/<repo>
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: waveful/dolphinabot
 
 
 jobs:
@@ -115,6 +115,7 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}.{{patch}}
             type=raw,value=alpha,enable=${{ github.ref == format('refs/heads/{0}', 'dev') }}
             type=raw,value=beta,enable=${{ github.ref == format('refs/heads/{0}', 'master') }}
+            type=raw,value=latest,enable=${{ github.ref == format('refs/heads/{0}', 'master') }}
 
       # Build and push Docker image with Buildx (don't push on PR)
       # https://github.com/docker/build-push-action

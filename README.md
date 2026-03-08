@@ -1,11 +1,11 @@
 <p align="center">
   <img src="./.github/assets/logo.png" width="140px" style="border-radius: 15%;">
 </p>
-<h1 align="center">SummaryGram</h1>
-<p align="center">A Dockerized Telegram bot that summarizes last messages in a group</p>
+<h1 align="center">dolphina_bot</h1>
+<p align="center">A Dockerized Telegram bot that summarize last messages in a group<br>Fork of <a href="https://github.com/derogab/summarygram">derogab/summarygram</a></p>
 <p align="center">
-  <a href="https://github.com/derogab/summarygram/actions/workflows/docker-publish.yml">
-    <img src="https://github.com/derogab/summarygram/actions/workflows/docker-publish.yml/badge.svg">
+  <a href="https://github.com/Waveful/dolphina_bot/actions/workflows/docker-publish.yml">
+    <img src="https://github.com/Waveful/dolphina_bot/actions/workflows/docker-publish.yml/badge.svg">
   </a>
 </p>
 
@@ -127,11 +127,11 @@ docker compose -f docker/docker-compose.yml down
 - Set to `never` to disable automatic summaries.
 
 ### Credits
-_SummaryGram_ is made with ♥ by [derogab](https://github.com/derogab) and it's released under the [MIT license](./LICENSE).
+_dolphina\_bot_ is made with ♥ by [derogab](https://github.com/derogab) and it's released under the [MIT license](./LICENSE).
 
 ### Contributors
 
-<a href="https://github.com/derogab/summarygram/graphs/contributors">
+<a href="https://github.com/Waveful/dolphina_bot/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=derogab/summarygram" />
 </a>
 

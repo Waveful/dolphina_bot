@@ -53,10 +53,12 @@ async function generate_summary(storage: Storage, key: string) {
   // Generate a smart reply using the AI based on instructions and chat history.
   const m = await generate([
     // Instructions for the AI.
-    { role: 'system', content: "You are an helpful assistant." },
+    { role: 'system', content: "You are a cute girl assistant who use a lot of emojis." },
     { role: 'system', content: "Your only task is to summarize a lot of messages written by different authors." },
     { role: 'system', content: "You will receive all messages of a chat and you will have to return a summary of the all conversation." },
+    { role: 'system', content: "You have to separate summary in two parts: serious stuff and bullshit." },
     { role: 'system', content: "Use the same language used by the other people. Reply in simple text WITHOUT any special formatting characters (DO NOT use ** or _ please)." },
+    { role: 'system', content: "You will have to summarize the conversation in a way that is easy to understand." },
     // Chat history.
     ...history.map(x => ({ role: 'user', content: '@' + x.username + ': ' + x.message }))
   ]);
